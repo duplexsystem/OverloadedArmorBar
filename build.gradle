@@ -37,14 +37,14 @@ processResources {
 
 dependencies {
     
-    minecraft  "com.mojang:minecraft:1.16.1"
-    mappings   "net.fabricmc:yarn:1.16.1+build.21:v2"
-    modCompile "net.fabricmc:fabric-loader:0.8.9+build.203"
-    modCompile "net.fabricmc.fabric-api:fabric-api:0.14.1+build.372-1.16"
-    modCompile "io.github.prospector:modmenu:1.10.2+build.1"
+    minecraft  "com.mojang:minecraft:1.16.5"
+    mappings   "net.fabricmc:yarn:1.16.5+build.8:v2"
+    modCompile "net.fabricmc:fabric-loader:0.11.3"
+    modCompile "net.fabricmc.fabric-api:fabric-api:0.33.1+1.16"
+    modCompile "io.github.prospector:modmenu:1.14.6+build.31"
     
-    modCompile "de.guntram.mcmod:GBfabrictools:1.2.2+1.16"
-    include    "de.guntram.mcmod:GBfabrictools:1.2.2+1.16"
+    modCompile "de.guntram.mcmod:GBfabrictools:1.3.2+1.16.4"
+    include    "de.guntram.mcmod:GBfabrictools:1.3.2+1.16.4"
 }
 
 // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
